@@ -59,6 +59,16 @@
       "imagePath": "assets/img/restaurants/tasty.png",
       "about": "A doceria com mais tradição da cidade",
       "hours": "Funciona de segunda à sábado, de 8h às 23h"
+    },
+    {
+      "id": "danin-pizzaria",
+      "name": "Danin Pizzaria",
+      "category": "Pizzas e Massas",
+      "deliveryEstimate": "35m",
+      "rating": 4.2,
+      "imagePath": "assets/img/restaurants/pizza.png",
+      "about": "A melhor pizzaria da cidade",
+      "hours": "Funciona de terça à domingo, de 18h às 00h"
     }
   ],
   "menu": [
