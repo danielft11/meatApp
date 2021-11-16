@@ -41,6 +41,6 @@ export class ShoppingCartService {
             this.removeItem(item)
         }
         
-     }
+    }
 
 }
