@@ -380,5 +380,36 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Quatro",
+      "number": "160",
+      "optionalAddress": "Casa",
+      "paymentOptions": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "capp"
+        },
+        {
+          "quantity": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua TESTE",
+      "number": "153",
+      "optionalAddress": "Casa",
+      "paymentOptions": "DEB",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "burger"
+        }
+      ],
+      "id": 2
+    }
+  ]
 }
