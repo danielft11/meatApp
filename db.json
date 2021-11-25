@@ -478,6 +478,22 @@
         }
       ],
       "id": 6
+    },
+    {
+      "name": "DANIEL fERNANDO",
+      "email": "daniel@teste.com",
+      "emailConfirmation": "daniel@teste.com",
+      "address": "Rua ABC",
+      "number": "153",
+      "optionalAddress": "Casa",
+      "paymentOptions": "MON",
+      "orderItems": [
+        {
+          "quantity": 3,
+          "menuId": "capp"
+        }
+      ],
+      "id": 7
     }
   ]
 }
