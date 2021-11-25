@@ -51,14 +51,19 @@
               placeholder="Endereço">
           </mt-input-container>
         </div>
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-2 col-xs-4">
           <mt-input-container errorMessage="Obrigatório e somente números." label="Número">
             <input type="text" class="form-control" formControlName="number" placeholder="Número" autocomplete="off">
           </mt-input-container>
         </div>
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-2 col-xs-4">
           <mt-input-container label="Complemento">
             <input type="text" class="form-control" formControlName="optionalAddress" placeholder="Complemento">
+          </mt-input-container>
+        </div>
+        <div class="col-sm-2 col-xs-4">
+          <mt-input-container label="Cep" errorMessage="Campo obrigatório.">
+            <input type="text" class="form-control" formControlName="cep" placeholder="cep" cepDirective>
           </mt-input-container>
         </div>
       </div>
