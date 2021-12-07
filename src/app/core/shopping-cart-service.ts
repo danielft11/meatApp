@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Order } from 'app/order/order.model'
-import { MenuItem } from '../menu-item/menu-item.model'
-import { CartItem } from './cart-item.model'
+import { MenuItem } from '../restaurant-detail/menu-item/menu-item.model'
+import { CartItem } from '../restaurant-detail/shopping-cart/cart-item.model'
 import { Http, Headers, RequestOptions } from '@angular/http'
 import { Observable } from 'rxjs/Observable';
 import { MEAT_API } from 'app/constantes';

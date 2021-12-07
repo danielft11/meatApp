@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CartItem } from 'app/restaurant-detail/shopping-cart/cart-item.model';
-import { ShoppingCartService } from 'app/restaurant-detail/shopping-cart/shopping-cart-service';
+import { ShoppingCartService } from 'app/core/shopping-cart-service';
 import { RadioOption } from 'app/shared/radio/radio-option.model';
 import { Order, OrderItem } from './order.model';
 import { Router } from '@angular/router';

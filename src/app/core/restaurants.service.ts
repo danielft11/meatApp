@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 import { MEAT_API } from 'app/constantes';
-import { Restaurant } from './restaurant/restaurant.model';
+import { Restaurant } from '../restaurants/restaurant/restaurant.model';
 import { ErrorHandler } from 'app/app.error-handler';
 import { Review } from 'app/restaurant-detail/reviews/review.model';
 import { MenuItem } from 'app/restaurant-detail/menu-item/menu-item.model';
