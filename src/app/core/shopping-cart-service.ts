@@ -7,13 +7,14 @@ import { Observable } from 'rxjs/Observable';
 import { MEAT_API } from 'app/constantes';
 
 import 'rxjs/add/operator/map';
+import { NotificationService } from './notification.service';
 
 @Injectable()
 export class ShoppingCartService {
 
     items: CartItem[] = []
 
-    constructor(private http: Http) { }
+    constructor(private http: Http, private notificationService: NotificationService) { }
 
     clear() {
         this.items = []
@@ -27,11 +28,14 @@ export class ShoppingCartService {
             this.increaseQty(foundItem)
         else
             this.items.push(new CartItem(item))
+        
+        this.notificationService.notify(`Item ${item.name} adicionado no carrinho.`)
 
     }
 
     removeItem(item: CartItem) {
         this.items.splice(this.items.indexOf(item), 1)
+        this.notificationService.notify(`Item ${item.menuItem.name} removido do carrinho.`)
     }
 
     total(): number {
